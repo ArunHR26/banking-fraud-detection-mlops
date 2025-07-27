@@ -54,3 +54,10 @@ The dataset used is the "Credit Card Fraud Detection" dataset from Kaggle, which
 4.  **Run Cells Sequentially:** Execute all cells in the notebook from top to bottom.
 
 ## Repository Structure
+
+├── notebooks/
+│   └── banking_fraud_detection.ipynb # Your Colab notebook
+├── xgb_fraud_detector_model.joblib   # Saved trained model
+├── .gitignore                      # Specifies files/directories to ignore
+├── LICENSE                         # Project licensing
+└── README.md                       # This file
