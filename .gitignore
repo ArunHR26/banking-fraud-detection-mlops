@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+*.egg
+*.egg-info/
+.env
+.idea/  # PyCharm project files
+.vscode/ # VS Code project files
+
+# Jupyter / IPython
+.ipynb_checkpoints
+.ipynb_html/
+.ipynb_temp/
+
+# Machine Learning specific
+*.joblib    # For your saved model (e.g., xgb_fraud_detector_model.joblib)
+*.pkl       # Python pickle files
+*.h5        # Keras models
+*.csv       # Raw data files (if large and not meant to be versioned)
+*.zip       # Downloaded zip files from Kaggle
+!creditcard.csv # Keep if you want to explicitly include this small dataset, otherwise ignore *.csv
+# If you want to version the dataset, remove *.csv and !creditcard.csv.
+# For this project, you're downloading it dynamically, so excluding it from Git is fine.
+
+# Data
+data/       # General data directory
+output/     # Model outputs, predictions, etc.
+logs/       # Log files
+tmp/        # Temporary files
+
+# Operating System junk
+.DS_Store   # macOS
+Thumbs.db   # Windows
